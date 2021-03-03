@@ -3,8 +3,8 @@
 # you can't save it in the file, it is the interactive mode
 
 import numpy as np
-
-integers = np.array([1,2,3])
+ 
+integers = np.array([1,2,3]) 
 
 #print(type(integers))
 

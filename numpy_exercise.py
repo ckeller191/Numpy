@@ -29,17 +29,17 @@ print(salesArray.sum(axis=1))
 #           Using the salesArray, create a new array that stores the 2% fee for each sale and register. Print the array and then print the total fees.
 print("-----------------------------------------------   STEP FIVE  -----------------------------------------------")
 
-array_fees = salesArray * 1.02
-total_fees = array_fees.sum() - salesArray.sum()
+array_fees = salesArray *.02
+total_fees = array_fees.sum()
 
 print(array_fees, "Total fees are", total_fees)
 
 ## Step 6: Using your fee array and salesArray, calculate how much profit Superstore made for each sale after paying credit card fees. Store this in a new array and print it.
 print("-----------------------------------------------   STEP SIX  -----------------------------------------------")
 
+profit = salesArray - array_fees
 
-
-print()
+print(profit)
 
 ## Step 7: Print the sales only for the second and forth cash register
 print("-----------------------------------------------   STEP SEVEN  -----------------------------------------------")
